@@ -9,7 +9,8 @@
     "test": "ng test",
     "serve:ssr:linting-formatting-practice": "node dist/linting-formatting-practice/server/server.mjs",
     "lint": "ng lint",
-    "prettify": "npx prettier . --write"
+    "prettify": "npx prettier . --write",
+    "lint-and-prettify": "npm run lint && npm run prettify"
   },
   "private": true,
   "dependencies": {
