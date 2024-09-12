@@ -7,7 +7,7 @@ import { User } from '../interfaces/IUser';
   template: `
     <ul>
       @for (user of users; track $index) {
-      <li>{{ user.name }} ({{ user.age }})</li>
+        <li>{{ user.name }} ({{ user.age }})</li>
       }
     </ul>
   `,
