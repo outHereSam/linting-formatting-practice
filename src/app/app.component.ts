@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { UserListComponent } from './user-list/user-list.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports: [UserListComponent],
+  imports: [UserListComponent, ProfileComponent],
   standalone: true,
 })
 export class AppComponent implements OnInit {
