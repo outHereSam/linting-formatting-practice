@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { UserListComponent } from './user-list/user-list.component';
 
 @Component({
@@ -8,7 +8,7 @@ import { UserListComponent } from './user-list/user-list.component';
   imports: [UserListComponent],
   standalone: true,
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'linting-formatting-practice';
 
   constructor() {
